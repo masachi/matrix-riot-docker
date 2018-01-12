@@ -17,6 +17,8 @@ ENV BV_VEC=${BV_VEC:-master}
 # command.
 ARG REBUILD=0
 
+EXPOSE 8765
+
 # update and upgrade
 # installing riot.im with nodejs/npm
 RUN chmod a+x /start.sh \
